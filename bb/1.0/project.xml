@@ -7,12 +7,7 @@
             <value>
                 <Policies/>
                 <allowChildPaths>false</allowChildPaths>
-                <dummyPolicyConfigurationsForJson>
-                    <entry>
-                        <key>PROXY_REQUEST</key>
-                        <value/>
-                    </entry>
-                </dummyPolicyConfigurationsForJson>
+                <dummyPolicyConfigurationsForJson/>
                 <endpoints>
                     <entry>
                         <key>DefaultTarget</key>
@@ -40,7 +35,7 @@
     <dummyProjectPoliciesForJSON/>
     <creationDate>2020/08/07 14:47:09</creationDate>
     <includeVersionInPath>true</includeVersionInPath>
-    <lastModified>2020/08/07 14:47:09</lastModified>
+    <lastModified>2020/08/07 15:24:22</lastModified>
     <projectDocument>
         <basePath>/bb/1.0</basePath>
         <resourceDocs>
@@ -54,6 +49,7 @@
                 </value>
             </entry>
         </resourceDocs>
+        <shortDesc>bbgg</shortDesc>
         <status>ACTIVE</status>
         <version>1.0</version>
     </projectDocument>
@@ -71,7 +67,7 @@
         </entry>
     </routingRules>
     <rule>
-        <Rule>CONTEXT_VARIABLE[api.project.context.path]~EQUALS~bb and CONTEXT_VARIABLE[api.project.version]~EQUALS~1.0</Rule>
+        <Rule>CONTEXT_VARIABLE[api.project.context.path]~EQUALS~/bb and CONTEXT_VARIABLE[api.project.version]~EQUALS~1.0</Rule>
     </rule>
     <status>ACTIVE</status>
     <traceEnabled>false</traceEnabled>
