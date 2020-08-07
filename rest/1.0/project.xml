@@ -38,11 +38,11 @@
     <policyIDs/>
     <ProjectPolicies/>
     <dummyProjectPoliciesForJSON/>
-    <creationDate>2020/07/27 14:54:15</creationDate>
+    <creationDate>2020/08/05 15:50:25</creationDate>
     <includeVersionInPath>true</includeVersionInPath>
-    <lastModified>2020/07/27 14:54:15</lastModified>
+    <lastModified>2020/08/05 15:50:25</lastModified>
     <projectDocument>
-        <basePath>/nn/1.0</basePath>
+        <basePath>/rest/1.0</basePath>
         <resourceDocs>
             <entry>
                 <key>DefaultResource</key>
@@ -57,7 +57,7 @@
         <status>ACTIVE</status>
         <version>1.0</version>
     </projectDocument>
-    <projectID>p5</projectID>
+    <projectID>rest</projectID>
     <projectVersion>1.0</projectVersion>
     <proxyAsEndPoint>false</proxyAsEndPoint>
     <referredPolicies/>
@@ -71,7 +71,7 @@
         </entry>
     </routingRules>
     <rule>
-        <Rule>CONTEXT_VARIABLE[api.project.context.path]~EQUALS~nn and CONTEXT_VARIABLE[api.project.version]~EQUALS~1.0</Rule>
+        <Rule>CONTEXT_VARIABLE[api.project.context.path]~EQUALS~rest and CONTEXT_VARIABLE[api.project.version]~EQUALS~1.0</Rule>
     </rule>
     <status>ACTIVE</status>
     <traceEnabled>false</traceEnabled>

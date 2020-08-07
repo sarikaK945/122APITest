@@ -1,10 +1,10 @@
 ---
 openapi: "3.0.1"
 info:
-  title: "p5"
+  title: "rest"
   version: "1.0"
 servers:
-- url: "http://localhost:2160/nn/1.0"
+- url: "http://localhost:2160/rest/1.0"
 paths:
   /:
     get:
